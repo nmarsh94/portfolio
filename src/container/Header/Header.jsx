@@ -43,7 +43,7 @@ const Header = () => (
       >
         {[ images.sass].map((circle, index) => (
           <div className="tag-cmp app__flex" key={`circle-${index}`}>
-            <a href="frontend_react\src\assets\resume-nicolas-marsh.pdf" download target="_blank">
+            <a href="src\assets\resume-nicolas-marsh.pdf" download> 
               <img src={images.resume} alt="profile_bg" title="Click here to download the resume in PDF" />
             </a>
           </div>
